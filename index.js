@@ -26,7 +26,7 @@ app.use("/api", (req, res) => {
 app.use("*", (req, res) => {
   res.status(404).json({
     success: false,
-    message: "api path not found",
+    message: "404 API Not Found",
   });
 });
 
