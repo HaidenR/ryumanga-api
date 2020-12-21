@@ -15,11 +15,11 @@ app.use("/api", (req, res) => {
   res.send({
     status: true,
     message:
-      "For more info, check out https://github.com/febryardiansyah/manga-api",
+      "For more info, check out https://github.com/HaidenR/ryumanga-api/",
     find_me_on: {
-      facebook: "https://www.facebook.com/febry.ardiansyah.792/",
-      instagram: "https://instagram.com/febry_ardiansyah24",
-      github: "https://github.com/febryardiansyah/manga-api",
+      facebook: "https://www.facebook.com/",
+      instagram: "https://instagram.com/",
+      github: "https://github.com/HaidenR/ryumanga-api/",
     },
   });
 });
